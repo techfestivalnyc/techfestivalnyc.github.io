@@ -2,7 +2,7 @@
 The website for Tech Festival 2019
 
 ## Demo
-https://techfestqc.github.io (tentative)
+https://techfestqc.github.io (tentative)  
 Alternatively, you may use `bundle exec jekyll serve` to debug locally. For more info visit [Jekyll Docs](https://jekyllrb.com/docs/)
 
 ## Status
