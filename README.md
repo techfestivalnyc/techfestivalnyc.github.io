@@ -9,4 +9,4 @@ Alternatively, you may use `bundle exec jekyll serve` to debug locally. For more
 This website is still under development.
 
 ## License
-[MIT](https://github.com/techfestqc/techfestqc.github.io/LICENSE)
+[MIT](https://github.com/techfestqc/techfestqc.github.io/blob/master/LICENSE)
