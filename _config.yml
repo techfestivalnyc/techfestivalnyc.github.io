@@ -1,12 +1,19 @@
 # Site settings
 title: Tech Festival 2019
+author: the Technology and Operation Team of Tech Festival
 email: techfestivalnyc@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
+# this ">-" means to ignore newlines until "baseurl:"
+description: >-
+              Tech Festival is powered by
+              a group of ambitious leaders.
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: techfestqc
+facebook_username:
+instagram_username:
+linkedin_username:
 
 # Build settings
 markdown: kramdown
