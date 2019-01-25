@@ -303,6 +303,10 @@ header {
     @include button-variant(white, $theme-primary, $theme-primary);
 }
 
+.btn-red {
+    @include button-variant(white, #F05F40, #F05F40);
+}
+
 .btn {
     @include sans-serif-font;
     border: none;
@@ -348,4 +352,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
