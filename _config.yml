@@ -9,10 +9,10 @@ description: >-
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
+twitter_username: company/tech-festival
 github_username: techfestqc
-facebook_username:
-instagram_username:
+facebook_username: techfestival19
+instagram_username: techfestival19
 linkedin_username:
 
 # Build settings
