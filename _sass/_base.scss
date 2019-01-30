@@ -244,17 +244,17 @@ header {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            .project-category,
-            .project-name {
+            .teammate-category,
+            .teammate-name {
                 @include sans-serif-font;
                 padding: 0 15px;
             }
-            .project-category {
-                text-transform: uppercase;
+            .teammate-category {
+                // text-transform: uppercase;
                 font-weight: 600;
                 font-size: 14px;
             }
-            .project-name {
+            .teammate-name {
                 font-size: 18px;
             }
         }
@@ -267,10 +267,10 @@ header {
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
-                .project-category {
+                .teammate-category {
                     font-size: 16px;
                 }
-                .project-name {
+                .teammate-name {
                     font-size: 22px;
                 }
             }
