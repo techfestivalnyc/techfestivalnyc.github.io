@@ -48,11 +48,22 @@
     // Click to reveal teammate info
     $( ".portfolio-box-caption" ).on( "click", function() {
         var opacity = $( this ).css( "opacity" );
-        if (opacity == 1) $( this ).css( "opacity", "0" );
+        if (opacity === "1") $( this ).css( "opacity", "0" );
         else {
             $( ".portfolio-box-caption" ).css( "opacity", "0" );
+            $( ".portfolio-box-caption" ).removeProp( "opacity" );
             $( this ).css( "opacity", "1" );
         }
     });
+    $( ".portfolio-box-caption" ).on( "mouseover", function() {
+        var opacity = $( this ).css( "opacity" );
+        if (opacity === "1") $( this ).css( "opacity", "0" );
+        else {
+            $( ".portfolio-box-caption" ).css( "opacity", "0" );
+            $( ".portfolio-box-caption" ).removeProp( "opacity" );
+            $( this ).css( "opacity", "1" );
+        }
+    });
+
 
 })(jQuery); // End of use strict
