@@ -263,6 +263,12 @@ header {
                 // text-transform: uppercase;
                 font-weight: 600;
                 font-size: 14px;
+                a:link {
+                  color: white;
+                }
+                a:visited {
+                  color: white;
+                }
             }
             .teammate-name {
                 font-size: 18px;
@@ -292,6 +298,10 @@ header {
     h2 {
         margin: 0 auto 20px;
     }
+}
+
+.text-white {
+    color: #fff;
 }
 
 // Bootstrap Overrides
