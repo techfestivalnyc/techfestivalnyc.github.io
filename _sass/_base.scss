@@ -165,7 +165,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header-front.png');
     text-align: center;
     color: white;
     .header-content {
@@ -214,6 +214,14 @@ header {
         }
     }
 }
+
+.header-front {
+  background-image: url('../img/header-front.png');
+}
+.header-hackathon {
+  background-image: url('../img/header-hackathon.jpg');
+}
+
 
 // Sections
 
@@ -305,6 +313,18 @@ header {
     color: #fff;
 }
 
+.team-title {
+    margin-top: 45px;
+}
+
+@media (min-width: 978px) {
+    .team-gallery {
+      margin-left: 120px;
+      margin-right: 120px;
+      margin-bottom: 0px;
+    }
+}
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
@@ -338,11 +358,16 @@ header {
     border: none;
     border-radius: 300px;
     font-weight: 700;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.btn-xxl {
+    padding: 30px 45px;
+    font-size: 1.5em;
 }
 
 // Contact
