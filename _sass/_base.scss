@@ -275,11 +275,12 @@ header {
             }
         }
     }
-    // &:hover {
-    //     .portfolio-box-caption {
-    //         opacity: 1;
-    //     }
-    // }
+     &:hover {
+         .portfolio-box-caption {
+            opacity: 1;
+            transition-delay:1s;
+         }
+     }
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
