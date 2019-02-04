@@ -1,20 +1,4 @@
-html, body {
-    margin: 0;
-  }
-  
-  div {
-    
-    font-family: sans-serif;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  
-    color: #fff;
-  }
-  
-  h3 {
+h3 {
     margin: 0;
   }
   
@@ -29,4 +13,4 @@ html, body {
     } 50% {
       opacity: 1;
     }
-  }
+  }*/
