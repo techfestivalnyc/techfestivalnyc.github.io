@@ -164,7 +164,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-position: 42% 50%;
     background-image: url('../img/header-front.png');
     text-align: center;
     color: white;
@@ -216,7 +216,7 @@ header {
 }
 
 .header-front {
-  background-image: url('../img/header-front.png');
+  background-image: url('../img/header-front.jpg');
 }
 .header-hackathon {
   background-image: url('../img/header-hackathon.jpg');
@@ -319,9 +319,9 @@ header {
 
 @media (min-width: 978px) {
     .team-gallery {
-      margin-left: 120px;
-      margin-right: 120px;
-      margin-bottom: 0px;
+      // margin-left: 120px;
+      // margin-right: 120px;
+      // margin-bottom: 0px;
     }
 }
 
@@ -363,6 +363,8 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .btn-xxl {
