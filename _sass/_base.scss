@@ -165,7 +165,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: 42% 50%;
-    background-image: url('../img/header-front.png');
+    // background-image: url('../img/header-front.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -188,6 +188,9 @@ header {
                 color: rgba(white, .7);
                 font-size: 16px;
                 // margin-bottom: 50px;
+            }
+            .header-date {
+              color: white;
             }
         }
     }
@@ -219,8 +222,8 @@ header {
   background-image: url('../img/header-front.jpg');
 }
 .header-hackathon {
-  background-image: none;
-  background-color: coral;
+  backgroud-image: none;
+  background-color: white;
 }
 
 // Sections
