@@ -11,5 +11,5 @@ Basic features should work, since it is rather stable.
 Website may be updated from time to time, based on the progress of the event.
 
 ## License
-[MIT](https://github.com/techfestqc/techfestqc.github.io/blob/master/LICENSE)  
+[MIT](https://github.com/techfestivalnyc/techfestivalnyc.github.io/blob/master/LICENSE)  
 Theme: [creative-theme-jekyll](https://github.com/volny/creative-theme-jekyll)
