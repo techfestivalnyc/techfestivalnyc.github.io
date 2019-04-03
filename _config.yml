@@ -4,8 +4,9 @@ author: the Tech Festival Team
 email: techfestivalnyc@gmail.com
 # this ">-" means to ignore newlines until "baseurl:"
 description: >-
-              Tech Festival is powered by
-              a group of ambitious leaders.
+              Where students across New York City will come together,
+              learn from other established and aspiring technologists,
+              and solve problems using technology.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
